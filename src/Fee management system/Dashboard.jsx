@@ -96,7 +96,7 @@ const Dashboard = () => {
                       <td className='border px-2'>{std.DUEAMOUNT}</td>
                       <td className='border px-2'>{std.STATUS}</td>
                       <td className='border flex gap-3'>
-                        <p onClick={() => navigate("/form")}><Pencil size={20} />
+                        <p onClick={() => navigate(`/form/${std.SN}`)}><Pencil size={20} />
 
                         </p>
                         <p onClick={() => alert("do you want to delete")}><Trash size={20} /></p>
